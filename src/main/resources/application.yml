@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: hft
+
+server:
+  port: 9009
+
+logging:
+  level:
+    root: info
+
+springdoc:
+  show-actuator: false
+  override-with-generic-response: false
+  model-and-view-allowed: false
+
+authentication:
+  username: admin
+  password: 1234
