@@ -16,18 +16,16 @@
 
 ```
 src/
-├── adapter/
+├── adapters/
+        ├── annotation/
+        ├── config/
         ├── controller/
         ├── dto/
         ├── mapper/
-├── domain/
+├── entities/
         ├── model/
         ├── repository/
-├── infrastructure/
-        ├── annotation/
-        ├── config/
-        ├── persistence/
-├── service/
+├── services/
         ├── dto/
         ├── exception/
         ├── usecases/
